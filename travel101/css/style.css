@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
 
 :root{
-    --orange:#F79F1F;
+    --purple:#a020f0;
     --text-color-1:#444;
     --text-color-2:#666;
     --bg-color-1:#fff;
@@ -35,7 +35,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background:var(--orange);
+    background:var(--purple);
     border-radius: 5rem;
 }
 
@@ -72,7 +72,7 @@ section{
     position: absolute;
     bottom: 1rem; left: 0;
     z-index: -1;
-    background: var(--orange);
+    background: var(--purple);
     height: 100%;
     width: 100%;
     clip-path: polygon(0 90%, 100% 83%, 100% 100%, 0% 100%);
@@ -84,7 +84,7 @@ section{
     padding:.8rem 3rem;
     font-size: 1.7rem;
     color:#fff;
-    background:var(--orange);
+    background:var(--purple);
     border-radius: .5rem;
     cursor: pointer;
 }
@@ -112,7 +112,7 @@ section{
 }
 
 .header .logo i{
-    color:var(--orange);
+    color:var(--purple);
 }
 
 .header .search-form{
@@ -142,7 +142,7 @@ section{
 }
 
 .header .search-form label:hover{
-    color:var(--orange);
+    color:var(--purple);
 }
 
 .header .icons div{
@@ -160,7 +160,7 @@ section{
 
 .header .icons div:hover{
     color:#fff;
-    background:var(--orange);
+    background:var(--purple);
 }
 
 #search-btn{
@@ -192,7 +192,7 @@ section{
 }
 
 .header .navbar a:hover{
-    color:var(--orange);
+    color:var(--purple);
     background:var(--bg-color-2);
     padding-left: 2rem;
 }
@@ -355,7 +355,7 @@ section{
 }
 
 .packages .box-container .box .image h3 i{
-    color:var(--orange);
+    color:var(--purple);
 }
 
 .packages .box-container .box .content{
@@ -412,7 +412,7 @@ section{
     text-align: center;
     font-size: 2.5rem;
     color:#fff;
-    background: var(--orange);
+    background: var(--purple);
     border-radius: 50%;
     margin-bottom: .5rem;
 }
@@ -515,11 +515,11 @@ section{
 
 .review .review-slider .slide .stars i{
     font-size: 2rem;
-    color:var(--orange);
+    color:var(--purple);
 }
 
 .swiper-pagination-bullet-active{
-    background: var(--orange);
+    background: var(--purple);
 }
 
 .contact form{
@@ -610,12 +610,12 @@ section{
 }
 
 .blogs .box-container .box .content .icons a:hover{
-    color:var(--orange);
+    color:var(--purple);
 }
 
 .blogs .box-container .box .content .icons a i{
     padding-right: .5rem;
-    color:var(--orange);
+    color:var(--purple);
 }
 
 .footer{
@@ -643,7 +643,7 @@ section{
 
 .footer .box-container .box a i{
     padding-right: .5rem;
-    color:var(--orange);
+    color:var(--purple);
 }
 
 .footer .box-container .box a:hover i{
@@ -661,7 +661,7 @@ section{
 }
 
 .footer .credit span{
-    color:var(--orange);
+    color:var(--purple);
 }
 
 
